@@ -1,4 +1,4 @@
-import {domainRegistrationPage,bindDomainRegistration} from './domain-registration.js?v=b71c264ce900';
+import {domainRegistrationPage,bindDomainRegistration} from './domain-registration.js?v=2c2859548d07';
 import {services,navigation,pages,official} from './data.js';
 import {verified,institutional} from './verified.js';
 import {icon} from './icons.js';

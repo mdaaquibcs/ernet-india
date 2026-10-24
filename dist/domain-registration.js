@@ -1,5 +1,5 @@
 import {icon} from './icons.js';
-import {domainLinks as links,domainCategories as categories,states,institutionTypes,requiredDocuments,domainFaqs,validateDomainLabel,validateLocalPDF} from './domain-data.js?v=a85ff678206c';
+import {domainLinks as links,domainCategories as categories,states,institutionTypes,requiredDocuments,domainFaqs,validateDomainLabel,validateLocalPDF} from './domain-data.js?v=614f82444188';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const external=(url,text,cls='dr-link')=>`<a class="${cls}" href="${url}" target="_blank" rel="noopener noreferrer">${text}${icon('external')}</a>`;
 const steps=['Check Eligibility','Select Domain','Institution Details','Upload Documents','Review Application','Submit Application','Track Application'];
